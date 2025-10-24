@@ -9,6 +9,7 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 Rol	E-posta	Şifre
 Admin1	yeniadmin@gmail.com şifre:yeniadmin
                                               Admin2	yavuzlar@admin.com şifre:yavuzlar
+                                              Admin3 abc@abc.com şifre:abc
 Kullanıcı: test@test.com şifre:test1234
 
 Firma Admin1: atur@gmail.com şifre:atur	
