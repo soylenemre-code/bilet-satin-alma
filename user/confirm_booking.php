@@ -110,7 +110,7 @@ $stmt->execute([$seat_id, $ticket_id, $seat_number]);
 $_SESSION['balance'] = $user['balance'] - $price;
 
 header("Refresh: 3; url=tickets.php");
-echo "🎉 <Bilet başarıyla alındı! 3 saniye içinde yönlendiriliyorsunuz...";
+echo " <Bilet başarıyla alındı! 3 saniye içinde yönlendiriliyorsunuz...";
 exit();
 
 ?>
