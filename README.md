@@ -43,7 +43,7 @@ Platformda üç ana kullanıcı rolü bulunmaktadır:
    
    Firma Ekleme işlemi:Admin kullanıcısı giriş yaptıktan sonra http://127.0.0.1:8000/adminpanel/firmsadd.php üzerinden(yandaki navigasyon bar üzerinden erişilebilir) firma ismi girerek firma oluşturabilir.
   
-   FİRMAADMİN'i oluşturma Ve Firmaya Atama:"FİRMAADMİN" rolü kullanıcıyı oluşturma için giriş yaptıktan sonra "Kulllanıcıları Listele"http://127.0.0.1:8000/adminpanel/users.php butoonuna tıklanır ve açılan sayfadan sol üstteki "Yeni Kullanıcı Ekle" butonuna tıklanarak yeni firmadmin rolü olan kullanıcılar oluşturabilirsiniz.Adminpanel ana sayfadaki "Firma Admini Tanımlama" sayfasından(http://127.0.0.1:8000/adminpanel/assign_company.php) firmadmin rolü olan kullanıcıları istediğiniz firmaya atayabilirsiniz.
+   FİRMA ADMİN'i oluşturma Ve Firmaya Atama:"FİRMAADMİN" rolü kullanıcıyı oluşturma için giriş yaptıktan sonra "Kulllanıcıları Listele"http://127.0.0.1:8000/adminpanel/users.php butoonuna tıklanır ve açılan sayfadan sol üstteki "Yeni Kullanıcı Ekle" butonuna tıklanarak yeni firmadmin rolü olan kullanıcılar oluşturabilirsiniz.Adminpanel ana sayfadaki "Firma Admini Tanımlama" sayfasından(http://127.0.0.1:8000/adminpanel/assign_company.php) firmadmin rolü olan kullanıcıları istediğiniz firmaya atayabilirsiniz.
    
     Yeni firmalar ekleme, aktifleştirme/pasifleştirme
 
@@ -52,7 +52,7 @@ Platformda üç ana kullanıcı rolü bulunmaktadır:
     Tüm kullanıcıları listeleme kulllanıcıları düzenleme(düzenleme ekranından bakiye güncellemesi yapılabiliyor)
 
     Tüm Kullanıcılarda geçerli olucak şekilde kullanım sınırı ve son kullanma tarihi belirterek kupon kodunu veritabanına ekleyebilir.
-Kullanıcı:
+Kullanıcı(user):
 
     Register.php'den kayıt olduktan sonra sistem tarafından 900 bakiye otomatik olarak tanımlanır.
 
@@ -63,7 +63,7 @@ Kullanıcı:
     Biletlerim sayfasından Aktif ve geçmiş seferleri görüntüleyebilir, pdf formatında geçmiş ve aktif tüm biletlerini indirebilir.
     Profil bilgilerini güncelleme
 
-🏢 Firma Yöneticisi (firm_admin)
+🏢 Firma Yöneticisi (firmadmin)
 
     Kendi firmasına ait seferleri görüntüleyebilir,düzenleyeilir(sessiondan aldığı company_id ile veritabanda trips tablosundan sefer bilgileri çekiliyor)
 
