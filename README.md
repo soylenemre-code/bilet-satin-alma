@@ -7,9 +7,9 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 
 🔐 Varsayılan Giriş Bilgileri
 Rol	E-posta	Şifre
-Admin	admin@gmail.com	123456789
-Firma Admin 1	muhammedtemli@gmail.com	123456789
-Firma Admin 2	mehmetgursoy@gmail.com	123456789
+Admin	
+Firma Admin 1	
+Firma Admin 2	
 
                KURULUM VE BAŞLANGIÇ:
 ⚙️ Kurulum ve Çalıştırma (Docker)
