@@ -23,8 +23,8 @@ Firma Admin 2: sibervatantur@gmail.com
     (Windows için) WSL 2
 
 2. Projeyi İndirme
-git clone [DEPO ADRESİNİZ] bilet-satin-alma
-cd bilet-satin-alma  //cihazınızın console ekranında bu şekilde localinize kopyalayabilirsiniz.
+git clone https://github.com/soylenemre-code/bilet-satin-alma bilet-satin-alma
+cd bilet-satin-alma      //cihazınızın console ekranında bu şekilde localinize klonladıktan sonra ilgili dizine girmeniz gerkemekte.
 
 3.Docker Üzerinden Başlatma:
 docker compose up -d
