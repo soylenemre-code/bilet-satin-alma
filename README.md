@@ -39,7 +39,9 @@ Platformda üç ana kullanıcı rolü bulunmaktadır:
 🛠️ Sistem Yöneticisi (admin)
 
    !!!!ÖNEMLİ NOT:Sistemde sadece admin kullanıcısı yeni firma oluşturabilir ve yeni firmaadminleri oluşturabilir.
+   
    Firma Ekleme işlemi:Admin kullanıcısı giriş yaptıktan sonra http://127.0.0.1:8000/adminpanel/firmsadd.php üzerinden(yandaki navigasyon bar üzerinden erişilebilir) firma ismi girerek firma oluşturabilir.
+  
    FİRMAADMİN'i oluşturma Ve Firmaya Atama:"FİRMAADMİN" rolü kullanıcıyı oluşturma için giriş yaptıktan sonra "Kulllanıcıları Listele"http://127.0.0.1:8000/adminpanel/users.php butoonuna tıklanır ve açılan sayfadan sol üstteki "Yeni Kullanıcı Ekle" butonuna tıklanarak yeni firmadmin rolü olan kullanıcılar oluşturabilirsiniz.Adminpanel ana sayfadaki "Firma Admini Tanımlama" sayfasından(http://127.0.0.1:8000/adminpanel/assign_company.php) firmadmin rolü olan kullanıcıları istediğiniz firmaya atayabilirsiniz.
    
     Yeni firmalar ekleme, aktifleştirme/pasifleştirme
