@@ -176,6 +176,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <a href="useradd.php">Yeni Kullanıcı Ekle</a>
     <a href="trips.php">Seferler</a>
     <a href="firmsadd.php">Firma Ekle</a>
+    <a href="profile.php">Profili Düzenle</a>
     <a href="logout.php">Çıkış Yap</a>
 </nav>
 <div class="main">

@@ -192,14 +192,15 @@ if (isset($_GET['action'], $_GET['id']) && $_GET['action'] === 'delete') {
 <nav id="sidebar">
     <h2>Admin Paneli</h2>
     <a href="dashboard.php">Ana Sayfa</a>
-    <a href="users.php">Kullanıcılar</a>
-    <a href="admins.php">Adminler</a>
-    <a href="useradd.php">Yeni Kullanıcı Ekle</a>
-    <a href="trips.php">Seferler</a>
     <a href="firmsadd.php">Firma Ekle</a>
+    <a href="coupons.php">Kuponlar</a>
+    <a href="trips.php">Seferler</a>
+    <a href="assign_company.php">Firma Admini Ata</a>
+    <a href="users.php">Kullanıcıları Listele</a>
+    <a href="admins.php">Adminleri Görüntüle</a>
+    <a href="profile.php">Profili Düzenle</a>
     <a href="logout.php">Çıkış Yap</a>
 </nav>
-
 <div class="main">
     <h1>KULLANICI LİSTESİ</h1>
 

@@ -196,6 +196,8 @@ if (isset($_GET['action'], $_GET['id']) && $_GET['action'] === 'delete') {
     <a href="useradd.php">Yeni Kullanıcı Ekle</a>
     <a href="trips.php">Seferler</a>
     <a href="firmsadd.php">Firma Ekle</a>
+    <a href="admins.php">Adminleri Görüntüle</a>
+    <a href="profile.php">Profili Düzenle</a>
     <a href="logout.php">Çıkış Yap</a>
 </nav>
 

@@ -183,6 +183,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <a href="coupons.php">Kuponlar</a>
   <a href="trips.php"> Seferler</a>
   <a href="users.php"> Kullanıcıları Listele</a>
+  <a href="profile.php">Profili Düzenle</a>
   <a href="logout.php"> Çıkış Yap</a>
 </nav>
 

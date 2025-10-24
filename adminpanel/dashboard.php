@@ -126,6 +126,7 @@ $bugunku_satis = $satis['gunluk_satis'] ?? 0;
   <a href="coupons.php">Kuponlar</a>
   <a href="admins.php">Adminleri Görüntüle</a>
   <a href="users.php">Kullanıcıları Listele</a>
+  <a href="profile.php">Profili Düzenle</a>
   <a href="logout.php"> Çıkış Yap</a>
 </nav>
 

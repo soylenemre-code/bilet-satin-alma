@@ -142,6 +142,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <a href="tripsadd.php">Yeni Sefer Ekle</a>
   <a href="users.php">Kullanıcılar</a>
   <a href="firmsadd.php">Firma Ekle</a>
+  <a href="admins.php">Adminleri Görüntüle</a>
+  <a href="profile.php">Profili Düzenle</a>
   <a href="logout.php">Çıkış Yap</a>
 </nav>
 
