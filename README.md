@@ -10,7 +10,8 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 Rolü "admin" olanlar:yeniadmin@gmail.com şifre:yeniadmin
                                               yavuzlar@admin.com şifre:yavuzlar
                                              abc@abc.com şifre:abc
-Kullanıcı: test@test.com şifre:test1234
+
+Kullanıcı rolü: test@test.com şifre:test1234
 
 Firma Admin1: atur@gmail.com şifre:atur	
 Firma Admin 2: sibervatantur@gmail.com şifre:sibervatantur
@@ -42,6 +43,7 @@ Platformda üç ana kullanıcı rolü bulunmaktadır:
    !!!!ÖNEMLİ NOT:Sistemde sadece admin kullanıcısı yeni firma oluşturabilir ve yeni firmaadminleri oluşturabilir.
    
    Firma Ekleme işlemi:Admin kullanıcısı giriş yaptıktan sonra http://127.0.0.1:8000/adminpanel/firmsadd.php üzerinden(yandaki navigasyon bar üzerinden firma ekle butonunua tıklıyarak erişilebilir) firma ismi girerek firma oluşturabilir.
+
   
    FİRMA ADMİN'i oluşturma Ve Firmaya Atama:"FİRMAADMİN" rolü kullanıcıyı oluşturma için giriş yaptıktan sonra "Kulllanıcıları Listele"http://127.0.0.1:8000/adminpanel/users.php butoonuna tıklanır ve açılan sayfadan sol üstteki "Yeni Kullanıcı Ekle" butonuna tıklanarak yeni firmadmin rolü olan kullanıcılar oluşturabilirsiniz.Adminpanel ana sayfadaki "Firma Admini Tanımlama" sayfasından(http://127.0.0.1:8000/adminpanel/assign_company.php) firmadmin rolü olan kullanıcıları istediğiniz firmaya atayabilirsiniz.
    
@@ -52,6 +54,7 @@ Platformda üç ana kullanıcı rolü bulunmaktadır:
     Tüm kullanıcıları listeleme kulllanıcıları düzenleme(düzenleme ekranından bakiye güncellemesi yapılabiliyor)
 
     Tüm Kullanıcılarda geçerli olucak şekilde kullanım sınırı ve son kullanma tarihi belirterek kupon kodunu veritabanına ekleyebilir.
+    
 Kullanıcı(user):
 
     Register.php'den kayıt olduktan sonra sistem tarafından 900 bakiye otomatik olarak tanımlanır.
@@ -63,6 +66,7 @@ Kullanıcı(user):
     Biletlerim sayfasından Aktif ve geçmiş seferleri görüntüleyebilir, pdf formatında geçmiş ve aktif tüm biletlerini indirebilir.
     Profil bilgilerini güncelleme
 
+
 🏢 Firma Yöneticisi (firmadmin)
 
     Kendi firmasına ait seferleri görüntüleyebilir,düzenleyeilir(sessiondan aldığı company_id ile veritabanda trips tablosundan sefer bilgileri çekiliyor)
@@ -71,6 +75,6 @@ Kullanıcı(user):
     Açılış sayfasında günlük satılan bilet sayısını görüntüleyebilir(veritabanından trips tablosunda satılan biletleirn countınnı hesaplayarak ekrana basıyor).
 
 
-
+ZİYARETÇİ: Ziyaretçi kullanıcısı herhangibir giriş yapmadan seferleri arayabilir, boş dolu koltukları görüntüleyebilir ancak koltuk seçip satınalmak istediğinde login.php sayfasına yönlendirilir.
 
 
