@@ -4,7 +4,7 @@ Bu proje,backend olarak php,frontend olarak html ve css ve database olarak sqlli
   GÖREVİN AMACI:
 Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanımı ve PDF bilet çıktısı gibi işlemleri destekleyen, veritabanı tabanlı bir otobüs bileti satış otomasyonu geliştirmek.
 
-
+ÖNEMLİ BİLGİLENDİRME:Yeni firma ekleme Firma admini oluşturma ve firmaya tanımlmalamak için 39-40ve41.satırlardaki açıklamayabakınız!!! Firmaadmin rolü olan herhangibir kullanıcı eğer herhangibir firma ile ilişkili değilse sefer ekleme ekranında hata alırsınız sebebi company_id ve user tablolarının ilişkilendirilerek sefer oluşturma listeleme vs işlemlerinin yapılmasından kaynaklıdır.
 🔐 Varsayılan Giriş Bilgileri
 Rol	E-posta	Şifre
 Admin1	yeniadmin@gmail.com şifre:yeniadmin
@@ -35,17 +35,26 @@ yazarak docker üzerinden repoyu çalıştırabilirsiniz.
 👥 Kullanıcı Rolleri ve Yetkilendirme
 
 Platformda üç ana kullanıcı rolü bulunmaktadır:
+🛠️ Sistem Yöneticisi (admin)
+   !!!!ÖNEMLİ NOT:Sistemde sadece admin kullanıcısı yeni firma oluşturabilir ve yeni firmaadminleri oluşturabilir.
+   Firma Ekleme işlemi:Admin kullanıcısı giriş yaptıktan sonra http://127.0.0.1:8000/adminpanel/firmsadd.php üzerinden(yandaki navigasyon bar üzerinden erişilebilir) firma ismi girerek firma oluşturabilir.
+   FİRMAADMİN'i oluşturma Ve Firmaya Atama:"FİRMAADMİN" rolü kullanıcıyı oluşturma için giriş yaptıktan sonra "Kulllanıcıları Listele"http://127.0.0.1:8000/adminpanel/users.php butoonuna tıklanır ve açılan sayfadan sol üstteki "Yeni Kullanıcı Ekle" butonuna tıklanarak yeni firmadmin rolü olan kullanıcılar oluşturabilirsiniz.Adminpanel ana sayfadaki "Firma Admini Tanımlama" sayfasından(http://127.0.0.1:8000/adminpanel/assign_company.php) firmadmin rolü olan kullanıcıları istediğiniz firmaya atayabilirsiniz.
+   
+    Yeni firmalar ekleme, aktifleştirme/pasifleştirme
+
+    Kullanıcıları firma yöneticisi olarak atama/geri alma
+
+    Tüm kullanıcıları listeleme
+
+    Global veya firma bazlı kupon yönetimi
 Kullanıcı:
 
     Register.php'den kayıt olduktan sonra sistem tarafından 900 bakiye otomatik olarak tanımlanır.
 
     Kullanıcı giriş yaptıktan sonra /user/index.php'den seferleri arayabilir profil bilgilerini güncelleyebilir.
 
-    Kullanıcı seferler sayfasından seçtiği seferin boş ve dolu koltukları görüntüleyebilir ve uygun olanı satınalabilir.
-    
-
-    Bilet iptali (Sefer saatinden 1 saat öncesine kadar, ücret iadeli)
-
+    Kullanıcı seferler sayfasından seçtiği seferin boş ve dolu koltukları görüntüleyebilir ve uygun olanı satınalabilir(satınalma sırasında kupon kodu girererk indirimli alabilir.
+    Biletlerim sayfasından Aktif ve geçmiş seferleri görüntüleyebilme,pdf formatında bilet indirme(not:iptal işlemi sefer saatine 1 saatten az zaman kalıysa gerçekleştirilemez)
     Profil bilgilerini güncelleme
 
 🏢 Firma Yöneticisi (firm_admin)
@@ -54,15 +63,7 @@ Kullanıcı:
 
     Kupon oluşturma, aktifleştirme/pasifleştirme, silme
 
-🛠️ Sistem Yöneticisi (admin)
 
-    Yeni firmalar ekleme, aktifleştirme/pasifleştirme
-
-    Kullanıcıları firma yöneticisi olarak atama/geri alma
-
-    Tüm kullanıcıları listeleme
-
-    Global veya firma bazlı kupon yönetimi
 
 
 
