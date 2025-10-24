@@ -136,7 +136,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['departure_city'], $_GET
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4); /* hafif parlama efekti */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4); 
   }
 
   .search-button:hover {
