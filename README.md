@@ -7,7 +7,7 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 
 🔐 Varsayılan Giriş Bilgileri
 Rol	E-posta	Şifre
-Admin	
+Admin	yeniadmin@gmail.com şifre:yeniadmin
 Firma Admin 1	
 Firma Admin 2	
 
