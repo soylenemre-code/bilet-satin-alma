@@ -12,7 +12,7 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
                                              yavuzlar@admin.com şifre:yavuzlar
                                              abc@abc.com şifre:abc
 
-Kullanıcı rolü: test@test.com şifre:test1234
+Rolü "user" olanlar: test@test.com şifre:test1234
 
 Firma Admin1: atur@gmail.com şifre:atur	
 Firma Admin 2: sibervatantur@gmail.com şifre:sibervatantur
