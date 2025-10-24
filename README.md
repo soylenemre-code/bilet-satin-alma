@@ -7,10 +7,9 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 ÖNEMLİ BİLGİLENDİRME:Yeni firma ekleme Firma admini oluşturma ve firmaya tanımlmalamak için 39-40ve41.satırlardaki açıklamayabakınız!!! Firmaadmin rolü olan herhangibir kullanıcı eğer herhangibir firma ile ilişkili değilse sefer ekleme ekranında hata alırsınız sebebi company_id ve user tablolarının ilişkilendirilerek sefer oluşturma listeleme vs işlemlerinin yapılmasından kaynaklıdır.
 🔐 Varsayılan Giriş Bilgileri:
 
-Rol	E-posta	Şifre
-Admin1	yeniadmin@gmail.com şifre:yeniadmin
-                                              Admin2	yavuzlar@admin.com şifre:yavuzlar
-                                              Admin3 abc@abc.com şifre:abc
+Rolü "admin" olanlar:yeniadmin@gmail.com şifre:yeniadmin
+                                              yavuzlar@admin.com şifre:yavuzlar
+                                             abc@abc.com şifre:abc
 Kullanıcı: test@test.com şifre:test1234
 
 Firma Admin1: atur@gmail.com şifre:atur	
