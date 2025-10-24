@@ -1,4 +1,4 @@
-                                                 🚌 Bilet Satın Alma Platformu
+                                                 🚌 Siber Vatan Bilet Satın Alma Platformu
 
 Bu proje,backend olarak php,frontend olarak html ve css ve database olarak sqllite kullanılarak geliştirilmiştir.Siteyi docker üzerinden kurduktan sonra karşınıza çıkan ana sayfada hesabınız varsa giril yap butonu ile giriş yapabilirsiniz veya kayıt ol butonu vaıstasıyla kayıt olabilirsiniz.Sitede herhangibir hesbaınız olmadan firmalar veya sistem yöneticisi tarafından girilen seferleri tarihe göre arayabilirsiniz ve boş koltukları görüntüleyebilirsiniz herhangibir koltuk satınalmak istediğinizde otomatik olarak sizi login(girişyap)sayfasına yönlendirecektir. 
   GÖREVİN AMACI:
