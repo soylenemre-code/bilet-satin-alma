@@ -9,6 +9,7 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 
 Rolü "admin" olanlar:yeniadmin@gmail.com şifre:yeniadmin
                                               yavuzlar@admin.com şifre:yavuzlar
+                                             
                                              abc@abc.com şifre:abc
 
 Kullanıcı rolü: test@test.com şifre:test1234
