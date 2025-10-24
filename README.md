@@ -8,11 +8,11 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 🔐 Varsayılan Giriş Bilgileri
 Rol	E-posta	Şifre
 Admin1	yeniadmin@gmail.com şifre:yeniadmin
-Admin2	yavuzlar@admin.com şifre:yavuzlar
+                                              Admin2	yavuzlar@admin.com şifre:yavuzlar
 Kullanıcı: test@test.com şifre:test1234
 
 Firma Admin1: atur@gmail.com şifre:atur	
-Firma Admin 2: sibervatantur@gmail.com
+Firma Admin 2: sibervatantur@gmail.com şifre:sibervatantur
 
                KURULUM VE BAŞLANGIÇ:
 ⚙️ Kurulum ve Çalıştırma (Docker)
@@ -44,24 +44,26 @@ Platformda üç ana kullanıcı rolü bulunmaktadır:
 
     Kullanıcıları firma yöneticisi olarak atama/geri alma
 
-    Tüm kullanıcıları listeleme
+    Tüm kullanıcıları listeleme kulllanıcıları düzenleme(düzenleme ekranından bakiye güncellemesi yapılabiliyor)
 
-    Global veya firma bazlı kupon yönetimi
+    Tüm Kullanıcılarda geçerli olucak şekilde kullanım sınırı ve son kullanma tarihi belirterek kupon kodunu veritabanına ekleyebilir.
 Kullanıcı:
 
     Register.php'den kayıt olduktan sonra sistem tarafından 900 bakiye otomatik olarak tanımlanır.
 
+    Kullanıcı full_name ve balance(bakiye) Bilgileri sesssion üzerinden çekilir ve ekrana yazdırılır.
     Kullanıcı giriş yaptıktan sonra /user/index.php'den seferleri arayabilir profil bilgilerini güncelleyebilir.
 
     Kullanıcı seferler sayfasından seçtiği seferin boş ve dolu koltukları görüntüleyebilir ve uygun olanı satınalabilir(satınalma sırasında kupon kodu girererk indirimli alabilir.
-    Biletlerim sayfasından Aktif ve geçmiş seferleri görüntüleyebilme,pdf formatında bilet indirme(not:iptal işlemi sefer saatine 1 saatten az zaman kalıysa gerçekleştirilemez)
+    Biletlerim sayfasından Aktif ve geçmiş seferleri görüntüleyebilir, pdf formatında geçmiş ve aktif tüm biletlerini indirebilir.
     Profil bilgilerini güncelleme
 
 🏢 Firma Yöneticisi (firm_admin)
 
-    Kendi firmasına ait seferleri ekleme, düzenleme, silme
+    Kendi firmasına ait seferleri görüntüleyebilir,düzenleyeilir(sessiondan aldığı company_id ile veritabanda trips tablosundan sefer bilgileri çekiliyor)
 
-    Kupon oluşturma, aktifleştirme/pasifleştirme, silme
+    Sadece kendi firmasında geçerli kupon Kodu oluşturma(son kullanma tarihi indirim yüzdesi kulllanım limiti belirterek)
+    Açılış sayfasında günlük satılan bilet sayısını görüntüleyebilir(veritabanından trips tablosunda satılan biletleirn countınnı hesaplayarak ekrana basıyor).
 
 
 
