@@ -9,8 +9,9 @@ Kalkış-varış şehirlerine göre sefer arama, koltuk seçimi, kupon kullanım
 Rol	E-posta	Şifre
 Admin1	yeniadmin@gmail.com şifre:yeniadmin
 Admin2	yavuzlar@admin.com şifre:yavuzlar
+Kullanıcı: test@test.com şifre:test
 Firma Admin1: atur@gmail.com şifre:atur	
-Firma Admin 2: 
+Firma Admin 2: sibervatantur@gmail.com
 
                KURULUM VE BAŞLANGIÇ:
 ⚙️ Kurulum ve Çalıştırma (Docker)
